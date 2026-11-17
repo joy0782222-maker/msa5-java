@@ -26,6 +26,13 @@ public class E04Loop {
         // ...
         // 9 X 8 = 72
         // 9 X 9 = 81
+        for(int i = 2; i <= 9; i++) {
+            System.out.printf("** %d단 **%n", i);
+            for(int z = 1; z <= 9; z++) {
+                System.out.printf("%d x %d = %d%n",i ,z, (i*z));
+            }
+            System.out.println();
+        }
 
     }
 }
