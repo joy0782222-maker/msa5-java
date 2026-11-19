@@ -1,0 +1,23 @@
+package org.example.e06oop.inheritance;
+
+public class Animal {
+    protected String name;
+    public String residence;
+
+    public Animal(String name, String residence) {
+        this.name = name;
+        this.residence = residence;
+        System.out.println("동물 생성자");
+    }
+
+    public Animal() {
+
+    }
+
+    public String breath() {
+        return String.format("%s가 숨을 쉽니다", this.name);
+    }
+    public String living() {
+        return String.format("%s가 %s에서 삽니다", this.name, this.residence);
+    }
+}
