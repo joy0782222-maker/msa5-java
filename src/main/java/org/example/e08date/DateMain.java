@@ -61,6 +61,5 @@ public class DateMain {
         // LocalDateTime -> LocalDate 추출
         LocalDate extractLocalDateFromNow = now.toLocalDate();
         System.out.println(extractLocalDateFromNow);
-
     }
 }
