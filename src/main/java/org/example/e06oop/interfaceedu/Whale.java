@@ -10,7 +10,8 @@ class Whale extends Mammal implements Swim{
         return String.format("%s가 %s에 삽니다", super.name, super.residence);
     }
 
+    @Override
     public String swimming() {
-        return String.format("%s가 %s에 헤엄니다", this.name);
+        return String.format("%s가 %s에 헤엄니다", this.name, this.residence);
     }
 }
